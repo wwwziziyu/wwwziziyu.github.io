@@ -1,0 +1,16 @@
+User-agent: * 
+Allow: /
+Allow: /home/
+Allow: /archives/
+Allow: /tags/
+Allow: /categories/
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+
+Sitemap: http://www.zai1999.club/sitemap.xml
+Sitemap: http://www.zai1999.club/baidusitemap.xml

@@ -1,0 +1,145 @@
+<!DOCTYPE html><html><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>hexo文章写法 | See you</title><meta name="description" content="hexo文章写法"><meta name="keywords" content="HEXO文章写法"><meta name="author" content="王梓煜"><meta name="copyright" content="王梓煜"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="canonical" href="http://www.zai1999.club/2019/07/31/hexo文章写法/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="hexo文章写法"><meta name="twitter:description" content="hexo文章写法"><meta name="twitter:image" content="http://www.zai1999.club/img/vxTou.jpg"><meta property="og:type" content="article"><meta property="og:title" content="hexo文章写法"><meta property="og:url" content="http://www.zai1999.club/2019/07/31/hexo文章写法/"><meta property="og:site_name" content="See you"><meta property="og:description" content="hexo文章写法"><meta property="og:image" content="http://www.zai1999.club/img/vxTou.jpg"><link rel="prev" title="娱乐不再想到头秃" href="http://www.zai1999.club/2019/07/31/发图不再想到头秃/"><link rel="next" title="致'天生没什么运气的我们'" href="http://www.zai1999.club/2019/07/29/致-天生没什么运气的我们/"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":1,"translateDelay":0,"cookieDomain":"https://jerryc.me/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  highlight_copy: 'true',
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    title: 'Bookmark',
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days'
+
+  
+}</script></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo的文章编写法"><span class="toc-number">1.</span> <span class="toc-text">hexo的文章编写法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、创建文章"><span class="toc-number">1.1.</span> <span class="toc-text">一、创建文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、编写文章（基于-Markdown）"><span class="toc-number">1.2.</span> <span class="toc-text">二、编写文章（基于 Markdown）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1、Markdown-简介"><span class="toc-number">1.2.0.1.</span> <span class="toc-text">1、Markdown 简介</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2、Markdown-语法"><span class="toc-number">1.2.0.2.</span> <span class="toc-text">2、Markdown 语法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#（1）标题"><span class="toc-number">1.2.0.2.1.</span> <span class="toc-text">（1）标题</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（2）粗体、斜体、删除线和下划线"><span class="toc-number">1.2.0.2.2.</span> <span class="toc-text">（2）粗体、斜体、删除线和下划线</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（3）引用块"><span class="toc-number">1.2.0.2.3.</span> <span class="toc-text">（3）引用块</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（4）代码块"><span class="toc-number">1.2.0.2.4.</span> <span class="toc-text">（4）代码块</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（5）公式块"><span class="toc-number">1.2.0.2.5.</span> <span class="toc-text">（5）公式块</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（6）分割线"><span class="toc-number">1.2.0.2.6.</span> <span class="toc-text">（6）分割线</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（7）列表"><span class="toc-number">1.2.0.2.7.</span> <span class="toc-text">（7）列表</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（8）表格"><span class="toc-number">1.2.0.2.8.</span> <span class="toc-text">（8）表格</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（9）超链接"><span class="toc-number">1.2.0.2.9.</span> <span class="toc-text">（9）超链接</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（10）图片"><span class="toc-number">1.2.0.2.10.</span> <span class="toc-text">（10）图片</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3、高级设置"><span class="toc-number">1.2.0.3.</span> <span class="toc-text">3、高级设置</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#（1）模板设置"><span class="toc-number">1.2.0.3.1.</span> <span class="toc-text">（1）模板设置</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（2）头部设置"><span class="toc-number">1.2.0.3.2.</span> <span class="toc-text">（2）头部设置</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#（3）首页显示"><span class="toc-number">1.2.0.3.3.</span> <span class="toc-text">（3）首页显示</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#这时，我们只需在文章中使用-标志即可，表示只会显示标志前面的内容"><span class="toc-number">1.2.0.3.3.1.</span> <span class="toc-text">这时，我们只需在文章中使用  标志即可，表示只会显示标志前面的内容</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/post.png)"><div id="page-header"><span class="pull-left"> <a class="blog_title" id="site-name" href="/">See you</a></span><div class="open toggle-menu pull-right"><div class="menu-icon-first"></div><div class="menu-icon-second"></div><div class="menu-icon-third"></div></div><span class="pull-right menus"><div class="mobile_author_icon"><img class="lozad" data-src="/img/vxTou.jpg" onerror="onerror=null;src='/img/friend_404.gif'"><div class="mobile_author-info__description">不要只因一次失败，就放弃你原来决心想达到的目的。</div></div><hr><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-coffee"></i><span> 留言板</span></a><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a><script>document.body.addEventListener('touchstart', function(){ });</script></div></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> Search</span></a></span></div><div id="post-info"><div id="post-title"><div class="posttitle">hexo文章写法</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2019-07-31<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> Updated 2019-07-31</time><span class="post-meta__separator mobile_hidden">|</span><span class="mobile_hidden"><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/博客/">博客</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/博客/HEXO文章写法/">HEXO文章写法</a></span></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><h1 id="hexo的文章编写法"><a href="#hexo的文章编写法" class="headerlink" title="hexo的文章编写法"></a>hexo的文章编写法</h1><h2 id="一、创建文章"><a href="#一、创建文章" class="headerlink" title="一、创建文章"></a>一、创建文章</h2><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;title&quot;</span><br><span class="line">当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md</span><br></pre></td></tr></table></figure>
+
+<p>这个文件就是将要发布到网站上的原始文件，用于记录文章内容</p>
+<p>下面，我们将要在这个文件中写下我们的第一篇博客</p>
+<h2 id="二、编写文章（基于-Markdown）"><a href="#二、编写文章（基于-Markdown）" class="headerlink" title="二、编写文章（基于 Markdown）"></a>二、编写文章（基于 Markdown）</h2><h4 id="1、Markdown-简介"><a href="#1、Markdown-简介" class="headerlink" title="1、Markdown 简介"></a>1、Markdown 简介</h4><p>但是，在我们正式写下第一个文字前，我们需要了解一下究竟什么是 Markdown？</p>
+<p>Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式</p>
+<p>基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言</p>
+<h4 id="2、Markdown-语法"><a href="#2、Markdown-语法" class="headerlink" title="2、Markdown 语法"></a>2、Markdown 语法</h4><p>在编写 Markdown 时，博主强烈的推荐给大家一款简洁易用的 Markdown 编辑器 —— Typora</p>
+<p>按照官方的说法就是 简单而强大，它不仅支持原生的语法，也支持对应的快捷键，更重要的是它还可以 实时预览</p>
+<p>这里附上 Typora 的下载地址：<a href="https://www.typora.io/，有兴趣的朋友可以下载来试试" target="_blank" rel="noopener">https://www.typora.io/，有兴趣的朋友可以下载来试试</a></p>
+<p>好，下面开始进入正题，介绍一些常用的 Markdown 语法</p>
+<h5 id="（1）标题"><a href="#（1）标题" class="headerlink" title="（1）标题"></a>（1）标题</h5><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line"></span><br><span class="line">## 二级标题</span><br><span class="line"></span><br><span class="line">### 三级标题</span><br><span class="line"></span><br><span class="line">#### 四级标题</span><br><span class="line"></span><br><span class="line">##### 五级标题</span><br><span class="line"></span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+
+<p>Typora 快捷键：</p>
+<p>Ctrl+1：一级标题</p>
+<p>Ctrl+2：二级标题</p>
+<p>Ctrl+3：三级标题</p>
+<p>Ctrl+4：四级标题</p>
+<p>Ctrl+5：五级标题</p>
+<p>Ctrl+6 ：六级标题</p>
+<p>Ctrl+0：段落</p>
+<h5 id="（2）粗体、斜体、删除线和下划线"><a href="#（2）粗体、斜体、删除线和下划线" class="headerlink" title="（2）粗体、斜体、删除线和下划线"></a>（2）粗体、斜体、删除线和下划线</h5><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线</span><br></pre></td></tr></table></figure>
+
+<p>~~</p>
+<p>Typora 快捷键：</p>
+<p>Ctrl+I：斜体</p>
+<p>Ctrl+B：粗体</p>
+<p>Ctrl+U：下划线</p>
+<p>Alt+Shift+5：删除线</p>
+<h5 id="（3）引用块"><a href="#（3）引用块" class="headerlink" title="（3）引用块"></a>（3）引用块</h5><p>Markdown 语法：</p>
+<blockquote>
+<p>文字引用<br>1<br>Typora 快捷键： Ctrl+Shift+Q</p>
+</blockquote>
+<h5 id="（4）代码块"><a href="#（4）代码块" class="headerlink" title="（4）代码块"></a>（4）代码块</h5><p>Markdown 语法：</p>
+<p><code>行内代码</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">多行代码</span><br><span class="line">多行代码</span><br></pre></td></tr></table></figure>
+
+<p>Typora 快捷键：</p>
+<p>行内代码：Ctrl+Shift+`</p>
+<p>多行代码：Ctrl+Shift+K</p>
+<h5 id="（5）公式块"><a href="#（5）公式块" class="headerlink" title="（5）公式块"></a>（5）公式块</h5><p>Markdown 语法：<br>$$<br>数学公式<br>Typora 快捷键： Ctrl+Shift+M<br>$$</p>
+<h5 id="（6）分割线"><a href="#（6）分割线" class="headerlink" title="（6）分割线"></a>（6）分割线</h5><p>Markdown 语法：</p>
+<p>方法一：—</p>
+<p>方法二：+++</p>
+<p>方法三：***</p>
+<h5 id="（7）列表"><a href="#（7）列表" class="headerlink" title="（7）列表"></a>（7）列表</h5><p>Markdown 语法：</p>
+<ol>
+<li>有序列表项</li>
+</ol>
+<ul>
+<li>无序列表项</li>
+</ul>
+<ul>
+<li>无序列表项</li>
+</ul>
+<ul>
+<li>无序列表项</li>
+</ul>
+<p>Typora 快捷键：</p>
+<p>有序列表项：Ctrl+Shift+[</p>
+<p>无序列表项：Ctrl+Shift+]</p>
+<h5 id="（8）表格"><a href="#（8）表格" class="headerlink" title="（8）表格"></a>（8）表格</h5><p>Markdown 语法：</p>
+<table>
+<thead>
+<tr>
+<th>表头1</th>
+<th>表头2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内容11</td>
+<td>内容12</td>
+</tr>
+<tr>
+<td>内容21</td>
+<td>内容22</td>
+</tr>
+</tbody></table>
+<p>Typora 快捷键： Ctrl+T</p>
+<h5 id="（9）超链接"><a href="#（9）超链接" class="headerlink" title="（9）超链接"></a>（9）超链接</h5><p>Markdown语法：</p>
+<p>方法一：<a href="链接地址" title="链接描述">链接文字</a><br>例如：<a href="https://www.zai1999.club/" title="示例链接">示例链接</a></p>
+<p>方法二：&lt;链接地址&gt;<br>例如：<a href="https://www.zai1999.club/">https://www.zai1999.club/</a></p>
+<p>Typora快捷键： Ctrl+K</p>
+<h5 id="（10）图片"><a href="#（10）图片" class="headerlink" title="（10）图片"></a>（10）图片</h5><p>Markdown语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片文字](图片地址 &quot;图片描述&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>Typora快捷键： Ctrl+Shift+I</p>
+<p>Typora快捷键： Ctrl+Shift+I</p>
+<p>说明：在 Hexo中 插入图片时，请按照以下的步骤进行设置</p>
+<p>将 站点配置文件 中的 post_asset_folde 选项的值设置为 true</p>
+<p>在站点文件夹中打开 git bash，输入命令 npm install hexo-asset-image –save 安装插件</p>
+<p>这样，当使用 hexo new title 创建文章时，将同时在 source/_post 文件夹中生成一个与 title 同名的文件夹，我们只需将图片放进此文件夹中，然后在文章中通过 Markdown 语法进行引用即可</p>
+<h4 id="3、高级设置"><a href="#3、高级设置" class="headerlink" title="3、高级设置"></a>3、高级设置</h4><h5 id="（1）模板设置"><a href="#（1）模板设置" class="headerlink" title="（1）模板设置"></a>（1）模板设置</h5><p>当我们使用命令 hexo new “title” 创建文章时，Hexo 会根据 /scaffolds/post.md 对新文章进行初始化</p>
+<p>换言之，/scaffolds/post.md 就是新文章的 模板，所以我们可以修改它来适应自己的写作习惯</p>
+<p>一个简单的示例如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: </span><br><span class="line">categories:</span><br></pre></td></tr></table></figure>
+
+<h5 id="（2）头部设置"><a href="#（2）头部设置" class="headerlink" title="（2）头部设置"></a>（2）头部设置</h5><p>在每篇利用 Hexo 创建的文章的开头，都会有对文章进行说明的文字，叫做 文章头部</p>
+<p>（2）头部设置<br>在每篇利用 Hexo 创建的文章的开头，都会有对文章进行说明的文字，叫做 文章头部</p>
+<p>文章的头部除了可以设置文章标题、发布日期等基础信息外，还可以为文章添加标签、分类等</p>
+<p>一个简单的示例如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: Title</span><br><span class="line">date: YYYY-MM-DD HH:MM:SS</span><br><span class="line">tags: [tag1, tag2, ...]</span><br><span class="line">categories: category</span><br></pre></td></tr></table></figure>
+
+<p>注意：属性和属性值之间必须有一个空格，否则会解析错误</p>
+<p>注意：属性和属性值之间必须有一个空格，否则会解析错误</p>
+<h5 id="（3）首页显示"><a href="#（3）首页显示" class="headerlink" title="（3）首页显示"></a>（3）首页显示</h5><p>在利用 Hexo 框架搭建的博客网站中，首页会显示文章的内容，且默认显示文章的全部内容</p>
+<p>如果当文章太长的时候就会显得十分冗余，所以我们有必要对其进行精简</p>
+<h6 id="这时，我们只需在文章中使用-标志即可，表示只会显示标志前面的内容"><a href="#这时，我们只需在文章中使用-标志即可，表示只会显示标志前面的内容" class="headerlink" title="这时，我们只需在文章中使用  标志即可，表示只会显示标志前面的内容"></a>这时，我们只需在文章中使用 <a id="more"></a> 标志即可，表示只会显示标志前面的内容</h6><p>参考来自：<a href="https://blog.csdn.net/wsmrzx/article/details/81478945" target="_blank" rel="noopener">https://blog.csdn.net/wsmrzx/article/details/81478945</a> </p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">王梓煜</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://www.zai1999.club/2019/07/31/hexo文章写法/">http://www.zai1999.club/2019/07/31/hexo文章写法/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/HEXO文章写法/">HEXO文章写法    </a></div><div class="post_share"><div class="social-share" data-image="/img/vxTou.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-buttom"><i class="fa fa-qrcode"></i> Donate<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lozad post-qr-code__img" data-src="/img/wechat.png"><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lozad post-qr-code__img" data-src="/img/alipay.png"><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull-left"><a href="/2019/07/31/发图不再想到头秃/"><img class="prev_cover lozad" data-src="http://www.zai1999.club/img/suiyi/mao.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="label">Previous Post</div><div class="prev_info"><span>娱乐不再想到头秃</span></div></a></div><div class="next-post pull-right"><a href="/2019/07/29/致-天生没什么运气的我们/"><img class="next_cover lozad" data-src="http://www.zai1999.club/img/suiyi/timg52.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="label">Next Post</div><div class="next_info"><span>致'天生没什么运气的我们'</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-thumbs-up" aria-hidden="true"></i><span> Recommend</span></div><div class="relatedPosts_list"></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> <span>Comment</span></div><div id="gitalk-container"></div><script>var gitalk = new Gitalk({
+  clientID: 'c1b89ee67cbed0c8c9d1',
+  clientSecret: '2153e34cf488378aafceeb61ce4a08ecf875c178',
+  repo: 'https://github.com/wwwziziyu/.pinglun.git',
+  owner: 'wwwziziyu',
+  admin: '王梓煜',
+  id: md5(decodeURI(location.pathname)),
+  language: ''
+})
+gitalk.render('gitalk-container')</script></div></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2018 - 2019 By 王梓煜</div><div class="framework-info"><span>Driven </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div><div class="icp"><a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action"><span>京ICP备19017603号</span></a></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><section class="rightside" id="rightside"><i class="fa fa-book" id="readmode" title="Read Mode"> </i><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="Traditional Chinese and Simplified Chinese Conversion">簡</a><i class="fa fa-moon-o nightshift" id="nightshift" title="Dark Mode"></i></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script async src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="/js/nightshift.js"></script><script id="ribbon" src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/js/piao.js"></script><script src="/js/baidupush.js"> </script><script src="/js/activate-power-mode.js"></script><script>POWERMODE.colorful = true; // make power mode colorful
+POWERMODE.shake = true; // turn off shake
+document.body.addEventListener('input', POWERMODE);
+</script><script src="/js/tw_cn.js"></script><script>translateInitilization()
+
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@1.2.2/instantpage.min.js" type="module"></script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
